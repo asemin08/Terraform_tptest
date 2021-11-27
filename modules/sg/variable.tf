@@ -16,7 +16,7 @@ variable "description_sg_group" {
 
 variable "description_ssh" {
   type    = string
-  default = "Autorise le traffic ssh depuis tous les hôtes"
+  default = "Autorise le traffic ssh depuis tous les hotes"
 }
 
 variable "port_ssh" {
@@ -26,7 +26,7 @@ variable "port_ssh" {
 
 variable "description_http" {
   type    = string
-  default = "Autorise le traffic http depuis tous les hôtes"
+  default = "Autorise le traffic http depuis tous les hotes"
 }
 
 variable "port_http" {
@@ -36,7 +36,7 @@ variable "port_http" {
 
 variable "description_https" {
   type    = string
-  default = "Autorise le traffic https depuis tous les hôtes"
+  default = "Autorise le traffic https depuis tous les hotes"
 }
 
 variable "port_https" {
