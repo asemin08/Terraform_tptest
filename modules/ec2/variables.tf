@@ -3,7 +3,7 @@ variable "auteur" {
   default = "allan"
 }
 
-variable "zone-dispo" {
+variable "zone_dispo" {
   type    = string
   default = "us-east-1b"
 }
@@ -34,9 +34,11 @@ variable "utilisateur_ssh" {
 }
 
 variable "id_compte_ubuntu" {
+  type    = string
   default = "099720109477"
 }
 
 variable "nom_ubuntu_ami" {
+  type    = string
   default = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"
 }
