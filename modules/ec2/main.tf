@@ -13,7 +13,7 @@ resource "aws_instance" "allan-ec2" {
   instance_type   = var.type_instance
   key_name        = var.cle_ssh
   availability_zone = "${var.zone_dispo}"
-#   security_groups = ["${var.securite_groupe}"]
+  security_groups = ["${var.securite_groupe}"]
   tags = {
     Name = "${var.auteur}-ec2"
   }
