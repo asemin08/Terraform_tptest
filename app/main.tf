@@ -23,6 +23,7 @@ module "ec2" {
   type_instance = "t2.micro"
   securite_groupe= "${module.sg.out_sg_nom}"
   ip_public = "${module.eip.out_eip_public_ip}"
+  utilisateur_ssh = "ubuntu"
 }
 
 

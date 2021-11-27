@@ -15,7 +15,7 @@ variable "type_instance" {
 
 variable "cle_ssh" {
   type    = string
-  default = "allan-kp"
+  default = "allan-key"
 }
 
 variable "securite_groupe" {
