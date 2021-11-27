@@ -5,7 +5,7 @@ variable "auteur" {
 
 variable "zone_dispo" {
   type    = string
-  default = "us-west-1"
+  default = "us-east-1b"
 }
 
 variable "type_instance" {
